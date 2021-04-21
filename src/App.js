@@ -13,7 +13,6 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  {" "}
                   <h3>DOCUMENT</h3>
                   <div className="text">
                     this is the first div for the container
@@ -27,7 +26,6 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  {" "}
                   <h3>DOCUMENT</h3>
                   <div className="text">
                     this is the first div for the container
@@ -41,7 +39,6 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  {" "}
                   <h3>DOCUMENT</h3>
                   <div className="text">
                     this is the first div for the container
@@ -55,7 +52,6 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  {" "}
                   <h3>DOCUMENT</h3>
                   <div className="text">
                     this is the first div for the container
@@ -69,7 +65,6 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  {" "}
                   <h3>DOCUMENT</h3>
                   <div className="text">
                     this is the first div for the container

@@ -3,6 +3,7 @@
 }
 .container{
  /* min-height: 100vw; */
+ display: flex;
 } 
 .sidenav{
 display: flex;
@@ -48,6 +49,7 @@ h3 {
   text-decoration: none; 
   font-size: 1.4vw;
 }
+<<<<<<< HEAD
 .link{
   text-decoration: none; 
   color: black;
@@ -55,3 +57,17 @@ h3 {
 /* .link:active,.link:visited,.link:hover,.link:focus{
   text-decoration: none;
 }  */
+=======
+
+.answer{
+  width: 515px;
+  height:68px;
+  padding: 14px 0 14px 16px;
+  margin-top: 3px;
+}
+
+.list{
+  margin-left: 99px;
+  margin-right: 102px;
+}
+>>>>>>> 5ff244d3f2f7f8c53149210d43e863bc0e5e7562
