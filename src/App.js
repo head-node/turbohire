@@ -9,7 +9,7 @@ export default function App() {
       <div className="container">
         <div className="sidenav">
           <div>
-            <Link to="/about">
+            <Link className="link" to="/about">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
@@ -22,7 +22,7 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link to="/about">
+            <Link className="link" to="/about">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
@@ -35,7 +35,7 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link to="/about">
+            <Link className="link" to="/about">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
@@ -48,7 +48,7 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link to="/about">
+            <Link className="link" to="/about">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
@@ -61,7 +61,7 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link to="/about">
+            <Link className="link" to="/about">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
