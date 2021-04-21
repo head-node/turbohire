@@ -48,3 +48,10 @@ h3 {
   text-decoration: none; 
   font-size: 1.4vw;
 }
+.link{
+  text-decoration: none; 
+  color: black;
+} 
+/* .link:active,.link:visited,.link:hover,.link:focus{
+  text-decoration: none;
+}  */
