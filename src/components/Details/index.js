@@ -1,9 +1,10 @@
 import React from "react";
-
-const Details = () => {
+import "./index.css"
+const Details = () => { 
+    
   return (
     <div style={{display:'flex',justifyContent:"center"}}>
-      <form>
+      <form className="details-container">
         <div>
           {" "}
           <label for="name">Name</label>

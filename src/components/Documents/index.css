@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.document-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 30%;
+}
+.document-container div {
+  margin: 1.5vw 0;
+}
+.document-container input {
+  width: 186px;
+  padding: 10px;
+  border-radius: 4px;
+
+  border: 1px solid #8a8a8a;
+  border-radius: 4px;
+}
+label {
+  width: max-content;
+  display: inline-block;
+}
+.document-container ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}

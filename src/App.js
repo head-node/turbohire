@@ -1,19 +1,20 @@
 import React from "react";
 import "./App.css";
-import About from "./about";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Details from "./components/Details" 
+import Documents from "./components/Documents"
 export default function App() {
   return (
     <Router>
       <div className="container">
         <div className="sidenav">
           <div>
-            <Link className="link" to="/about">
+            <Link style={{}} className="link" to="/">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>DOCUMENT</h3>
+                  <h3>New Form</h3>
                   <div className="text">
                     this is the first div for the container
                   </div>
@@ -22,11 +23,11 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link className="link" to="/about">
+            <Link className="link" to="/Details">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>DOCUMENT</h3>
+                  <h3>Details Collection</h3>
                   <div className="text">
                     this is the first div for the container
                   </div>
@@ -35,11 +36,11 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link className="link" to="/about">
+            <Link className="link" to="/Documents">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>DOCUMENT</h3>
+                  <h3>Document Collection</h3>
                   <div className="text">
                     this is the first div for the container
                   </div>
@@ -48,11 +49,11 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link className="link" to="/about">
+            <Link className="link" to="/">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>DOCUMENT</h3>
+                  <h3>Statement of Purpose</h3>
                   <div className="text">
                     this is the first div for the container
                   </div>
@@ -61,7 +62,7 @@ export default function App() {
             </Link>
           </div>
           <div>
-            <Link className="link" to="/about">
+            <Link className="link" to="/">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
@@ -78,11 +79,11 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">{/* <Users >About</Link> */}</Route>
-          <Route path="/">{/* <Home >About</Link> */}</Route>
+          {/* <Route path="/">
+            
+          </Route> */}
+          <Route exact path="/Details"><Details/></Route>
+          <Route exact path="/Documents"><Documents/></Route>
         </Switch>
       </div>
     </Router>
