@@ -9,6 +9,7 @@
 .interview select{
     height: 3vw;
     border-radius: 4px;
+    width: 40vw;
 } 
 .interview{
     padding-bottom: 5%;
