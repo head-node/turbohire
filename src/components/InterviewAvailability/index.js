@@ -12,7 +12,6 @@ const InterviewAvailability = () => {
             type="email"
             name="email"
             id="email"
-            value="email"
             placeholder="Example - userid@gmail.com"
           />
         </div>
@@ -24,7 +23,6 @@ const InterviewAvailability = () => {
             type="text"
             name="Location"
             id="Location"
-            value="Location"
             placeholder="Search or enter your location"
           />
         </div>

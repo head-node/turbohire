@@ -19,22 +19,53 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>New Form</h3>
-                  <div className="text">
-                    this is the first div for the container
+                  <h3 style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "bolder",
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  marginBottom:"12px",
+                }}>New Form</h3>
+                  <div className="text" style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                  lineHeight: "14px",
+                  width:"250px"
+                }}>
+                    Start creating a new form with the wide options of fields
+                    available
                   </div>
                 </div>
               </div>
             </Link>
           </div>
+          <p className="template">Explore the following Templates:</p>
           <div>
             <Link className="link" to="/Details">
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>Details Collection</h3>
-                  <div className="text">
-                    this is the first div for the container
+                  <h3 style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "bolder",
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  marginBottom:"12px",
+                }}>Details Collection</h3>
+                  <div className="text" style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                  lineHeight: "14px",
+                  width:"250px"
+                }}>
+                    Collect information from Candidates on their education, work
+                    experience, contact no,etc
                   </div>
                 </div>
               </div>
@@ -45,9 +76,24 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>Document Collection</h3>
-                  <div className="text">
-                    this is the first div for the container
+                  <h3 style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "bolder",
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  marginBottom:"12px",
+                }}>Document Collection</h3>
+                  <div className="text" style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                  lineHeight: "14px",
+                  width:"250px"
+                }}>
+                    Save time and efforts: Explore this template to find a set
+                    of questions required for document collection
                   </div>
                 </div>
               </div>
@@ -58,9 +104,24 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>Statement of Purpose</h3>
-                  <div className="text">
-                    this is the first div for the container
+                  <h3 style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "bolder",
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  marginBottom:"12px",
+                }}>Statement of Purpose</h3>
+                  <div className="text" style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                  lineHeight: "14px",
+                  width:"250px"
+                }}>
+                    Start creating a new form with the wide options of fields
+                    available
                   </div>
                 </div>
               </div>
@@ -71,9 +132,24 @@ export default function App() {
               <div className="div-card">
                 <div className="box"></div>
                 <div className="child-textbox">
-                  <h3>DOCUMENT</h3>
-                  <div className="text">
-                    this is the first div for the container
+                  <h3 style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "bolder",
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  marginBottom:"12px",
+                }}>Interview Availability</h3>
+                  <div className="text" style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontSize: "12px",
+                  lineHeight: "14px",
+                  width:"250px"
+                }}>
+                    Start creating a new form with the wide options of fields
+                    available
                   </div>
                 </div>
               </div>
@@ -82,20 +158,28 @@ export default function App() {
         </div>
         <div className="wrapper-content">
           <div className="preview">
-            <p style={{
-                  fontFamily: "Roboto",
-                  fontStyle: "normal",
-                  fontWeight: "bolder",
-                    fontSize: "20px",
-                    lineHeight: "23px",
-                }}>Preview</p>
-            <p style={{
-                  fontFamily: "Roboto",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
-                    fontSize: "16px",
-                    lineHeight: "19px",
-                }}>You will be able to customize the fields in the later stage</p>
+            <p
+              style={{
+                fontFamily: "Roboto",
+                fontStyle: "normal",
+                fontWeight: "bolder",
+                fontSize: "20px",
+                lineHeight: "23px",
+              }}
+            >
+              Preview
+            </p>
+            <p
+              style={{
+                fontFamily: "Roboto",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontSize: "16px",
+                lineHeight: "19px",
+              }}
+            >
+              You will be able to customize the fields in the later stage
+            </p>
           </div>
           <div className="content">
             <div className="title-content">
@@ -111,21 +195,25 @@ export default function App() {
                 >
                   Name of the Enquiry Form
                 </p>
-                <p style={{
+                <p
+                  style={{
                     fontFamily: "Roboto",
                     fontStyle: "normal",
                     fontWeight: "normal",
                     fontSize: "12px",
                     lineHeight: "14px",
-                  }}>One line description of the form</p>
+                  }}
+                >
+                  One line description of the form
+                </p>
                 <p
-                style={{
-                  fontFamily: "Roboto",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  style={{
+                    fontFamily: "Roboto",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
                     fontSize: "12px",
                     lineHeight: "14px",
-                }}
+                  }}
                 >
                   Provide the following information to process your application
                 </p>
@@ -154,58 +242,3 @@ export default function App() {
   );
 }
 
-{
-  /* <div className="link-box new-form">
-          <div className="frame"></div>
-          <div className="frame-name">
-            <p className="frame-title">New Form</p>
-            <p className="frame-detail">
-              Start creating a new form with the wide options of fields
-              available
-            </p>
-          </div>
-        </div>
-
-        <p className="template">Explore the following Templates:</p>
-        <div className="link-box">
-          <div className="frame"></div>
-          <div className="frame-name">
-            <p className="frame-title">Details Collection</p>
-            <p className="frame-detail">
-              Collect information from Candidates on their education, work
-              experience, contact no,etc
-            </p>
-          </div>
-        </div>
-        <div className="link-box">
-          <div className="frame"></div>
-          <div className="frame-name">
-            <p className="frame-title">Document Collection</p>
-            <p className="frame-detail">
-              Save time and efforts: Explore this template to find a set of
-              questions required for document collection
-            </p>
-          </div>
-        </div>
-        <div className="link-box">
-          <div className="frame"></div>
-          <div className="frame-name">
-            <p className="frame-title">Statement of Purpose</p>
-            <p className="frame-detail">
-              Start creating a new form with the wide options of fields
-              available
-            </p>
-          </div>
-        </div>
-        <div className="link-box">
-          <div className="frame"></div>
-          <div className="frame-name">
-            <p className="frame-title">Interview Availability</p>
-            <p className="frame-detail">
-              Start creating a new form with the wide options of fields
-              available
-            </p>
-          </div>
-          <div>
- */
-}
