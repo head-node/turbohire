@@ -82,15 +82,51 @@ export default function App() {
         </div>
         <div className="wrapper-content">
           <div className="preview">
-          <p>Preview</p>
-          <p>You will be able to customize the fields in the later stage</p>
+            <p style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "bolder",
+                    fontSize: "20px",
+                    lineHeight: "23px",
+                }}>Preview</p>
+            <p style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                    fontSize: "16px",
+                    lineHeight: "19px",
+                }}>You will be able to customize the fields in the later stage</p>
           </div>
           <div className="content">
             <div className="title-content">
               <div className="title">
-                <p>Name of the Enquiry Form</p>
-                <p>One line description of the form</p>
-                <p>
+                <p
+                  style={{
+                    fontFamily: "Roboto",
+                    fontStyle: "normal",
+                    fontWeight: "bolder",
+                    fontSize: "20px",
+                    lineHeight: "23px",
+                  }}
+                >
+                  Name of the Enquiry Form
+                </p>
+                <p style={{
+                    fontFamily: "Roboto",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontSize: "12px",
+                    lineHeight: "14px",
+                  }}>One line description of the form</p>
+                <p
+                style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                    fontSize: "12px",
+                    lineHeight: "14px",
+                }}
+                >
                   Provide the following information to process your application
                 </p>
               </div>
@@ -104,10 +140,10 @@ export default function App() {
                   <Document />
                 </Route>
                 <Route exact path="/statementofpurpose">
-                  <StatementOfPurpose/>
+                  <StatementOfPurpose />
                 </Route>
                 <Route exact path="/interview">
-                  <InterviewAvailability/>
+                  <InterviewAvailability />
                 </Route>
               </Switch>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 const StatementOfPurpose = () => {
   const questionList = [
@@ -10,15 +11,40 @@ const StatementOfPurpose = () => {
   return (
     <>
       <ul className="list">
-        {questionList.map((question,idx) => {
+        {questionList.map((question, idx) => {
           return (
-            <li >
-              <div className="question">{idx+1}.{" "}{question}</div>
+            <li className="question-list">
+              <div
+                className="question"
+                style={{
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                }}
+              >
+                {idx + 1}. {question}
+              </div>
               <input
                 className="answer"
                 type="text"
                 placeholder="Enter a description for the long answer"
               />
+              <div
+                className="wordlimit"
+                style={{
+                  display: "flex",
+                  justifyContent: "end",
+                  fontFamily: "Roboto",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  fontSize: "10px",
+                  lineHeight: "12px",
+                }}
+              >
+                300 word limit
+              </div>
             </li>
           );
         })}
