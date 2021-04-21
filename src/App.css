@@ -1,27 +1,27 @@
-* {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+*{
+  font-family: 'Roboto', sans-serif;
 }
-.container {
-  /* min-height: 100vw; */
-  display: flex;
-}
-.sidenav {
-  display: flex;
-  flex-direction: column;
+.container{
+ /* min-height: 100vw; */
+ display: flex;
+ /* justify-content: space-around; */
+} 
+.sidenav{
+display: flex;
+flex-direction: column;
 }
 .div-card {
   display: flex;
   /* justify-content: space-around; */
   width: 30vw;
   /* height: 100%; */
-  /* border: 1px solid blue; */
-  border: 1px solid rgb(156, 155, 155);
-  padding: 15px;
-  text-decoration: none;
-  border-radius: 8px;
-  height: 6vw;
-  margin: 1vw 2vw;
+  /* border: 1px solid blue; */ 
+  border: 1px solid #888888;
+  padding: 15px;  
+  text-decoration: none; 
+  border-radius: 8px; 
+  height: 6vw; 
+  margin: 1vw 2vw; 
 }
 .box {
   width: 6vw;
@@ -36,6 +36,7 @@ h3 {
   padding: 0;
   /* margin: 10px; */
   margin: 0;
+  color: #000000;
 }
 .child-textbox {
   margin-left: 15px;
@@ -49,6 +50,10 @@ h3 {
   border: none;
   text-decoration: none;
   font-size: 1.4vw;
+  text-decoration: none; 
+  font-size: 1.4vw; 
+  color: #595959; 
+  text-transform: capitalize;
 }
 
 .answer {
@@ -99,6 +104,11 @@ h3 {
 .wrapper-content {
   width: 903px;
   background-color: #f5f5f5;
+  margin-left: 100px;
+}
+
+.preview{
+  margin-left: 95px;
 }
 
 .content {
@@ -126,4 +136,17 @@ h3 {
 
   box-shadow: 0px 1px 4px rgba(52, 52, 52, 0.15);
   border-radius: 8px;
+}
+.link:active{
+color: black;  
+box-shadow: 0px 0px 8px rgba(52, 52, 52, 0.3);
+
+}
+.link{
+  text-decoration: none;
+} 
+.list{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0;
 }

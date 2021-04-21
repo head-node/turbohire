@@ -9,11 +9,11 @@ const StatementOfPurpose = () => {
 
   return (
     <>
-      <ol className="list">
-        {questionList.map((question) => {
+      <ul className="list">
+        {questionList.map((question,idx) => {
           return (
             <li >
-              <div className="question">{question}</div>
+              <div className="question">{idx+1}.{" "}{question}</div>
               <input
                 className="answer"
                 type="text"
@@ -22,7 +22,7 @@ const StatementOfPurpose = () => {
             </li>
           );
         })}
-      </ol>
+      </ul>
     </>
   );
 };

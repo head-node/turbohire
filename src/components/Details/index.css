@@ -1,0 +1,19 @@
+#dob {
+    text-transform: uppercase;
+    width: max-content;
+  }
+  .details-container {
+    display: flex;
+    flex-direction: column; 
+    /* margin: 0 0 0 30%; */
+    /* align-items: center;  */
+  }
+  .details-container input {
+    width: 40vw;
+    height: 3vw;
+    border-radius: 4px;
+  }
+  .details-container div {
+    margin: 1.5vw 0
+  }
+  

@@ -1,10 +1,34 @@
-import React from 'react'
-
-export default function App() {
+import React from "react";
+import "./index.css";
+const Document = () => {
+  const sections = [
+    "10th Marksheet",
+    "12th Marksheet",
+    "Graduation Marksheet",
+    "Post Graduation Marksheet",
+    "Offer Letter",
+    "Salary Slips",
+    "Bank Statement",
+    "Increment Letter (if any)",
+    "Others (if any)",
+  ];
   return (
-    <div >
-      <form>
-        <div>
+    <div>
+      <form className="document-container">
+        <ul >
+          {sections.map((item, idx) => {
+            return (
+              <li >
+                <div>
+                  <label for={idx}>{idx+1}.{" "}{item}</label>
+                  <br></br>
+                  <input type="file" id={idx}></input>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+        {/* <div>
           <label for="10th">10th Marksheet</label>
           <br></br>
           <input type="file" id="10th"></input>
@@ -48,8 +72,10 @@ export default function App() {
           <label for="others">Others (if any)</label>
           <br></br>
           <input type="file" id="others"></input>
-        </div>
+        </div> */}
       </form>
     </div>
   );
 }
+
+export default Document;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const InterviewAbility = () => {
+const InterviewAvailability = () => {
   return (
     <>
       <div className="interview">
@@ -117,4 +117,4 @@ const InterviewAbility = () => {
   );
 };
 
-export default InterviewAbility;
+export default InterviewAvailability;
