@@ -1,0 +1,18 @@
+.interview div{
+ margin: 1.5vw 0 1.5vw 7%;
+} 
+.interview input{
+    width: 40vw;
+    height: 3vw;
+    border-radius: 4px;
+} 
+.interview select{
+    height: 3vw;
+    border-radius: 4px;
+} 
+.interview{
+    padding-bottom: 5%;
+} 
+#date{
+    text-transform: uppercase;
+}
