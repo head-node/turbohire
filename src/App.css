@@ -3,6 +3,7 @@
 }
 .container{
  /* min-height: 100vw; */
+ display: flex;
 } 
 .sidenav{
 display: flex;
@@ -47,4 +48,16 @@ h3 {
   border: none;
   text-decoration: none; 
   font-size: 1.4vw;
+}
+
+.answer{
+  width: 515px;
+  height:68px;
+  padding: 14px 0 14px 16px;
+  margin-top: 3px;
+}
+
+.list{
+  margin-left: 99px;
+  margin-right: 102px;
 }
