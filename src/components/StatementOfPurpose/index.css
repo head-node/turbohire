@@ -1,8 +1,10 @@
 .list{
-    margin-left:99px;
+    /* margin-left:99px;
     margin-right:102px;
     margin-top:50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px; */
+    margin: 1.5vw 0 1.5vw 7%; 
+    padding: 20px 0px;
 }
 .answer{
     width:515px;

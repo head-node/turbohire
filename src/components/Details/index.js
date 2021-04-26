@@ -3,7 +3,7 @@ import "./index.css"
 const Details = () => { 
     
   return (
-    <div style={{display:'flex',justifyContent:"center"}}>
+    <>
       <form className="details-container">
         <div>
           {" "}
@@ -27,7 +27,7 @@ const Details = () => {
           <input type="text" id="contact"></input>
         </div>
       </form>
-    </div>
+    </>
   );
 };
 
